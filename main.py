@@ -1,4 +1,4 @@
-saldo = 0.0
+
 
 nomes = {    
     'Nome Completo':'', 
