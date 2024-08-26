@@ -15,7 +15,7 @@ while True:
     print(f'{'='*10} Cadastro {'='*10}')
     print('1 - Cadastrar usuário.')
     print('2 - Listar todos os usuários.')
-    print('3 - Alterar os dados pdo usuário.')
+    print('3 - Alterar os dados do usuário.')
     print('4 - Excluir usuário.')
     print('5 - Sair do programa.')
 
@@ -38,10 +38,6 @@ while True:
             for chave in nomes:
                 print(f'{chave}: {nomes.get(chave)}')
             continue
-
-            # novo_nome = input('Informe o novo nome: ')
-            # nomes.append(novo_nome)
-            # print(f'Nome {novo_nome} cadastrado com sucesso.')
             
         case '2':
             for chave in nomes:
